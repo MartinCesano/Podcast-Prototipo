@@ -1,0 +1,8 @@
+.custom-navbar {
+    background-color: #343a40; /* Color de fondo oscuro */
+}
+  
+.custom-navbar .navbar-brand,
+.custom-navbar .navbar-nav .nav-link {
+color: #ffffff; /* Color de texto claro */
+}
