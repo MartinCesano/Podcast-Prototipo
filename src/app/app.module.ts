@@ -1,17 +1,19 @@
-// src/app/app.module.ts
-
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { RouterModule } from '@angular/router'; // Asegúrate de importar RouterModule
+import { AppRoutingModule } from './app.routes';
 import { AppComponent } from './app.component';
-import { HomeModule } from './modules/home/home.module';
 
 @NgModule({
   declarations: [
     AppComponent
+    // Otros componentes que tengas
   ],
   imports: [
     BrowserModule,
-    HomeModule
+    AppRoutingModule,
+    RouterModule // Asegúrate de incluir RouterModule aquí
+    // Otros módulos que necesites importar
   ],
   providers: [],
   bootstrap: [AppComponent]
